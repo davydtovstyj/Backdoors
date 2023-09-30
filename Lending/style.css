@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Good Times Rg';
+    src: url(fonts/goodtimes.otf);
+}
+
+body{
+    color: white;
+    background-color: #1a1a1a;
+}
+
+.navbar-brand{
+    font-size: 40px; 
+    margin-left: 45px;
+}
+
+.main-bg{
+    background-color: #1e1e1e;
+}
+
+.nav-padding{
+    padding: 0px;
+}
+
+.bg-image{
+    background-image: url(images/Banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.good-times-font{
+    font-family: "Good Times Rg";
+    color: white;
+}
+
+.menu-padding{
+    padding: 0 15px;
+}
+
+.title{
+    font-size: 48px;
+}
+
+.small-title{
+    font-size: 32px;
+}
+
+.paragraph{
+    font-size: 24px;
+}
+
+.small-paragraph{
+    font-size: 20px;
+}
+
+.centred{
+    display: flex;
+    justify-content: center;
+}
+
+.download-button{
+    height: 100px;
+    width:400px;
+    background-color: rgba(107, 45, 0, 1);
+}
+
+.download-button:focus{
+    box-shadow: none;
+}
+
+.footer{
+    width: 100%;
+    position:static;
+    bottom: 1px;
+    z-index: 1;
+}
+
+.el-pad{
+    padding-top: 100px;
+}
+
+.dark{
+    color: black;
+}
+
+.bg-dark{
+    background-color: #1e1e1e;
+}
+
+.text-size{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.white{
+    color: white;
+    background-image: none;
+}
+
+.focus:focus{
+    box-shadow: none;
+}
+
+@media (max-width:992){
+    .mobile-bg{
+        background: #000;
+        background-image: none;
+    }
+}
+
+@media(max-width: 768px){
+    .carousel-control-prev, 
+    .carousel-control-next{
+        display: none;
+    }
+}
+
+@media (max-width:510px) {
+        .navbar-brand{
+        font-size: 24px;
+        margin-left: 0; 
+    }
+}
+
+@media(max-width: 425px){
+
+    .title{
+        font-size: 24px;
+        width: 100%;
+        height: 50px;
+    }
+
+}
+
+@media (max-width:350px) {
+    .navbar-brand{
+    font-size: 20px; 
+
+}
+}
